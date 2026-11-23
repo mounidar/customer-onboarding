@@ -1,0 +1,23 @@
+# --- .NET build output ---
+bin/
+obj/
+
+# --- Local SQLite databases (may contain real data) ---
+*.db
+*.db-shm
+*.db-wal
+
+# --- Node / frontend ---
+node_modules/
+dist/
+
+# --- Secrets / local env ---
+.env
+.env.*
+appsettings.*.local.json
+
+# --- OS / editor ---
+.DS_Store
+.vs/
+.idea/
+*.user
