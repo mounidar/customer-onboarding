@@ -1,0 +1,17 @@
+# Dependabot opens PRs automatically when dependencies have updates / security fixes.
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: /Onboarding.Api
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /employee-dashboard
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
